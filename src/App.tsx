@@ -3,7 +3,7 @@ import { CvBuilderWithTheming } from "./components/cv-builder-with-theming";
 
 function App() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-background text-foreground">
+    <div className="min-w-screen min-h-screen w-screen p-12">
       <CvBuilderWithTheming />
     </div>
   );
